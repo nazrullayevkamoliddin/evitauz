@@ -1,0 +1,83 @@
+.feat {
+  background-color: #f5f6fa;
+  padding: 3vh 10%;
+}
+.feat .feat-header .item {
+  padding: 0 1%;
+  display: flex;
+  align-items: flex-start;
+}
+.feat .feat-header .item .icon {
+  color: #286efc;
+  margin-right: 10px;
+}
+.feat .feat-header .item .icon svg {
+  font-size: 45px;
+}
+.feat .feat-header .item .info h3 {
+  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #151515;
+  line-height: 1.333;
+}
+.feat .feat-header .item .info p {
+  color: rgba(21, 21, 21, 0.7);
+  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+@media screen and (max-width: 992px) {
+  .feat .feat-header .item {
+    margin-bottom: 15px;
+  }
+}
+.feat-footer {
+  width: 100%;
+  height: 480px;
+  background-image: url("../../assets//images/features.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.feat-footer h1 {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.feat-footer p {
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 0.07rem;
+  line-height: 1.3rem;
+  font-weight: 300;
+}
+.feat-footer a {
+  color: #fff;
+  padding: 16px 45px;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 6px;
+  transition: 0.25s ease-in-out;
+}
+.feat-footer a:hover {
+  background-color: #286efc;
+}
+.feat-footer a:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 991px) {
+  .feat-footer {
+    padding-left: 10%;
+  }
+  .feat-footer .feat-footer-item {
+    display: none;
+  }
+}/*# sourceMappingURL=features.css.map */

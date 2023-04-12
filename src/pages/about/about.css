@@ -1,0 +1,48 @@
+.about .about-left1 .about-img {
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+.about .about-left {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.about .about-left .about-name {
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 36px;
+  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #151515;
+  line-height: 1.33;
+}
+.about .about-left .about-text {
+  color: rgba(21, 21, 21, 0.7);
+  font-size: 17px;
+  line-height: 1.777;
+}
+.about .about-left .about-link {
+  text-decoration: none;
+  padding: 14px 55px;
+  background-color: #286efc;
+  color: #fff;
+  border-radius: 6px;
+  transition: 0.25s ease-in-out;
+}
+.about .about-left .about-link:hover {
+  background-color: #1c52be;
+}
+.about .about-left .about-link:hover {
+  outline: none;
+}
+
+@media screen and (max-width: 768px) {
+  .about .about-left1 .about-img {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .about .about-img {
+    width: 100% !important;
+  }
+}/*# sourceMappingURL=about.css.map */

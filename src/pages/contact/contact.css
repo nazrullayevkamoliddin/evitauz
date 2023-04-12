@@ -1,0 +1,124 @@
+.contact {
+  background-color: #f5f6fa;
+  width: 100%;
+  min-height: 60vh;
+  padding: 0 10%;
+  margin-top: 2.5vh;
+  padding-top: 10vh;
+  position: relative;
+}
+.contact .contact-name {
+  font-size: 36px;
+  line-height: 1.4rem;
+  font-weight: 400;
+  padding: 0 3%;
+  color: #151515;
+  margin-bottom: 6vh;
+}
+.contact .item-input {
+  padding: 0 3%;
+}
+.contact .item-input label {
+  color: #aeb1be;
+}
+.contact .item-input input,
+.contact .item-input textarea {
+  width: 100%;
+  padding: 11px 19px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #343a40;
+  background-color: #fff;
+  border: 1px solid #c5c6cd;
+  border-radius: 6px;
+  margin: 10px 0;
+}
+.contact .item-input input:focus,
+.contact .item-input textarea:focus {
+  outline: none;
+}
+.contact .item-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3vh;
+  padding: 0 3%;
+}
+.contact .item-button .message {
+  background-color: #286efc;
+  color: #fff;
+  border-color: #286efc;
+  padding: 16px 50px;
+  border: none;
+  border: 1.5px solid #286efc;
+  border-radius: 6px;
+  font-weight: 500;
+  line-height: 1.25rem;
+  letter-spacing: 0.07rem;
+  transition: 0.25s ease-in-out;
+}
+.contact .item-button .message:focus {
+  outline: none;
+}
+.contact .item-button .message:hover {
+  background-color: #123c8f;
+}
+.contact .item-button span {
+  color: #343a40;
+}
+.contact .item-button .messanger {
+  background-color: transparent;
+  color: #343a40;
+  border: none;
+  border: 0.1rem solid #286efc;
+  border-radius: 6px;
+  padding: 16px 50px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  line-height: 1.25rem;
+  letter-spacing: 0.07rem;
+  transition: 0.25s ease-in-out;
+}
+.contact .item-button .messanger svg {
+  color: #286efc;
+  margin-right: 10px;
+}
+.contact .item-button .messanger:focus {
+  outline: none;
+}
+.contact .item-button .messanger:hover {
+  background-color: #286efc;
+  color: #fff;
+}
+.contact .item-button .messanger:hover svg {
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .contact .item-button {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+.contact .img-box {
+  display: flex;
+  align-items: flex-end;
+}
+.contact .path-section {
+  position: absolute;
+  left: 0;
+  bottom: -3.9px;
+}
+.contact .path-section svg {
+  fill: #e1eafd;
+}
+
+@media screen and (max-width: 768px) {
+  .contact .path-section {
+    bottom: -7px;
+  }
+  .contact .path-section svg {
+    height: 20px;
+  }
+}/*# sourceMappingURL=contact.css.map */

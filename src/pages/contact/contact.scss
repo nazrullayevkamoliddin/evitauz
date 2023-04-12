@@ -1,0 +1,145 @@
+.contact {
+    background-color: #f5f6fa;
+    width: 100%;
+    min-height: 60vh;
+    padding: 0 10%;
+    margin-top: 2.5vh;
+    padding-top: 10vh;
+    position: relative;
+    .contact-name {
+        font-size: 36px;
+        line-height: 1.4rem;
+        font-weight: 400;
+        padding: 0 3%;
+        color: #151515;
+        margin-bottom: 6vh;
+    }
+
+    .item-input {
+        padding: 0 3%;
+
+        label {
+            color: #aeb1be;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 11px 19px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #343a40;
+            background-color: #fff;
+            border: 1px solid #c5c6cd;
+            border-radius: 6px;
+            margin: 10px 0;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+    }
+
+    .item-button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 3vh;
+        padding: 0 3%;
+
+        .message {
+            background-color: #286efc;
+            color: #fff;
+            border-color: #286efc;
+            padding: 16px 50px;
+            border: none;
+            border: 1.5px solid #286efc;
+            border-radius: 6px;
+            font-weight: 500;
+            line-height: 1.25rem;
+            letter-spacing: 0.07rem;
+            transition: 0.25s ease-in-out;
+
+            &:focus {
+                outline: none;
+            }
+
+            &:hover {
+                background-color: #123c8f;
+            }
+        }
+
+        span {
+            color: #343a40;
+        }
+
+        .messanger {
+            background-color: transparent;
+            color: #343a40;
+            border: none;
+            border: 0.1rem solid #286efc;
+            border-radius: 6px;
+            padding: 16px 50px;
+            display: flex;
+            align-items: center;
+            font-weight: 500;
+            line-height: 1.25rem;
+            letter-spacing: 0.07rem;
+            transition: 0.25s ease-in-out;
+
+            svg {
+                color: #286efc;
+                margin-right: 10px;
+
+
+            }
+
+            &:focus {
+                outline: none;
+            }
+
+            &:hover {
+                background-color: #286efc;
+                color: #fff;
+
+                svg {
+                    color: #fff;
+                }
+            }
+        }
+       
+        @media screen and (max-width:768px) {
+            flex-direction: column; 
+            justify-content: space-between;
+        }  
+
+    }
+    .img-box{
+        display: flex;
+        align-items: flex-end;
+
+
+    }
+    .path-section{
+        position: absolute;
+        left: 0;
+        bottom: -3.9px;
+        svg{
+            fill: #e1eafd;
+            // height: 50px;
+        }
+    }
+}
+@media screen and (max-width:768px) {
+    .contact{
+        .path-section{
+            bottom: -7px;
+            svg{
+                height: 20px;
+                
+            }
+        }
+    }
+}

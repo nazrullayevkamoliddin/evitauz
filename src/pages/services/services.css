@@ -1,0 +1,63 @@
+.services {
+  width: 100%;
+  padding: 0 10%;
+  min-height: 70vh;
+}
+.services .item:nth-child(1) {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 5vh;
+}
+.services .item:nth-child(1) h1 {
+  font-weight: 400;
+}
+.services .item:nth-child(2), .services .item:nth-child(3), .services .item:nth-child(4) {
+  text-align: center;
+}
+.services .item:nth-child(2) .icon, .services .item:nth-child(3) .icon, .services .item:nth-child(4) .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services .item:nth-child(2) .icon span, .services .item:nth-child(3) .icon span, .services .item:nth-child(4) .icon span {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  font-size: 40px;
+  color: #286efc;
+  transition: 0.25s ease-in-out;
+  border: 2px solid #e8e9ee;
+}
+.services .item:nth-child(2):hover .icon span, .services .item:nth-child(3):hover .icon span, .services .item:nth-child(4):hover .icon span {
+  background-color: #286efc;
+  color: #fff;
+  cursor: pointer;
+}
+.services .item:nth-child(2) .info, .services .item:nth-child(3) .info, .services .item:nth-child(4) .info {
+  padding: 0 8%;
+  padding-top: 4vh;
+}
+.services .item:nth-child(2) .info a, .services .item:nth-child(3) .info a, .services .item:nth-child(4) .info a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.25s ease-in-out;
+}
+.services .item:nth-child(2) .info a h3, .services .item:nth-child(3) .info a h3, .services .item:nth-child(4) .info a h3 {
+  font-weight: 400;
+  font-size: 25px;
+}
+.services .item:nth-child(2) .info a:hover, .services .item:nth-child(3) .info a:hover, .services .item:nth-child(4) .info a:hover {
+  color: #286efc;
+}
+.services .item:nth-child(2) .info a:focus, .services .item:nth-child(3) .info a:focus, .services .item:nth-child(4) .info a:focus {
+  outline: none;
+}
+.services .item:nth-child(2) .info p, .services .item:nth-child(3) .info p, .services .item:nth-child(4) .info p {
+  color: rgba(21, 21, 21, 0.5);
+  line-height: 1.5rem;
+  font-size: 16px;
+}/*# sourceMappingURL=services.css.map */

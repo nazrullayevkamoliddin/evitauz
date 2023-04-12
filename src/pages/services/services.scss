@@ -1,0 +1,83 @@
+ .services {
+     width: 100%;
+     padding: 0 10%;
+     min-height: 70vh;
+
+     .item {
+         &:nth-child(1) {
+             text-align: center;
+             width: 100%;
+             margin-bottom: 5vh;
+             h1{
+                font-weight: 400;
+             }
+         }
+
+         &:nth-child(2),
+         &:nth-child(3),
+         &:nth-child(4) {
+             text-align: center;
+
+             .icon {
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+
+                 span {
+                     width: 90px;
+                     height: 90px;
+                     display: flex;
+                     border-radius: 50%;
+                     justify-content: center;
+                     align-items: center;
+                     background-color: #fff;
+                     font-size: 40px;
+                     color: #286efc;
+                     transition: 0.25s ease-in-out;
+                     border: 2px solid #e8e9ee;
+
+                 }
+             }
+
+             &:hover {
+                 .icon {
+                     span {
+                         background-color: #286efc;
+                         color: #fff;
+                         cursor: pointer;
+                     }
+                 }
+             }
+
+             .info {
+                 padding: 0 8%;
+                 padding-top: 4vh;
+
+                 a {
+                     text-decoration: none;
+                     color: #000;
+                     transition: 0.25s ease-in-out;
+
+                     h3 {
+                         font-weight: 400;
+                         font-size: 25px;
+                     }
+
+                     &:hover {
+                         color: #286efc;
+                     }
+
+                     &:focus {
+                         outline: none;
+                     }
+                 }
+
+                 p {
+                     color: rgba(21, 21, 21, 0.5);
+                     line-height: 1.5rem;
+                     font-size: 16px;
+                 }
+             }
+         }
+     }
+ }

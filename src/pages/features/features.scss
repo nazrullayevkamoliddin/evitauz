@@ -1,0 +1,98 @@
+ .feat {
+     background-color: #f5f6fa;
+     padding: 3vh 10%;
+
+     .feat-header {
+         .item {
+             padding: 0 1%;
+             display: flex;
+             align-items: flex-start;
+
+             .icon {
+                 color: #286efc;
+                 margin-right: 10px;
+
+                 svg {
+                     font-size: 45px;
+                 }
+             }
+
+             .info {
+                 h3 {
+                     font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+                     font-weight: 400;
+                     font-size: 25px;
+                     margin-bottom: 10px;
+                     color: #151515;
+                     line-height: 1.333;
+                 }
+
+                 p {
+                     color: rgba(21, 21, 21, 0.7);
+                     font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+                     font-weight: 300;
+                     font-size: 17px;
+                     line-height: 1.7;
+                 }
+                
+             }
+         }
+     }
+ }
+
+
+ @media screen and (max-width: 992px) {
+    .feat{
+        .feat-header{
+            .item{
+
+                margin-bottom: 15px;
+            }
+        }
+    }
+ }
+ .feat-footer{
+    width: 100%;
+    height: 480px;
+    background-image: url('../../assets//images/features.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    h1{
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+    p{
+        color: #fff;
+        font-size: 16px;
+        letter-spacing: 0.07rem;
+        line-height: 1.3rem;
+        font-weight: 300;
+    }
+    a{
+        color: #fff;
+        padding: 16px 45px;
+        text-decoration: none;
+        background-color: rgba(255, 255, 255, 0.25);
+        border-radius: 6px;
+        transition: 0.25s ease-in-out;
+        &:hover{
+            background-color: #286efc;
+        }
+        &:focus{
+            outline: none;
+        }
+    }
+ }
+ @media screen and (max-width:991px) {
+    .feat-footer{
+        padding-left: 10%;
+        .feat-footer-item{
+            display: none;
+        }
+    }
+ }

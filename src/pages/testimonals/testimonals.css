@@ -1,0 +1,59 @@
+.testimonls {
+  width: 100%;
+  min-height: 60vh;
+  padding: 0 10%;
+}
+.testimonls .item-header {
+  text-align: center;
+}
+.testimonls .item-header h1 {
+  font-weight: 400;
+  font-family: "Work Sans";
+}
+.testimonls .item-body {
+  padding-top: 10vh;
+}
+.testimonls .item-body .test-container {
+  padding: 0 5%;
+}
+.testimonls .item-body .test-container .icon span {
+  color: #aeb1be;
+}
+.testimonls .item-body .test-container .icon span svg {
+  font-size: 35px;
+  transform: rotate(180deg);
+}
+.testimonls .item-body .test-container p {
+  padding: 0 6% 0 0;
+  color: rgba(21, 21, 21, 0.8);
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.7;
+  margin: 10px 0;
+}
+.testimonls .item-body .test-container .user {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.testimonls .item-body .test-container .user img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.testimonls .item-body .test-container .user .user-info h3 {
+  font-weight: 300;
+  font-size: 22px;
+  color: #286efc;
+  margin: 5px 0;
+}
+.testimonls .item-body .test-container .user .user-info h4 {
+  font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+  .testimonls {
+    padding: 4%;
+  }
+}/*# sourceMappingURL=testimonals.css.map */

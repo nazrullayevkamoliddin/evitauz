@@ -1,0 +1,199 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center !important;
+  justify-content: space-between;
+  padding: 0 10% !important;
+  background-color: #fff;
+}
+.navbar .brand {
+  display: flex;
+  align-items: center;
+}
+.navbar .brand .bars {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  display: none;
+}
+.navbar .brand .bars svg {
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.35s ease-in-out;
+}
+.navbar .menu {
+  width: 70%;
+  display: flex;
+  align-items: center !important;
+  justify-content: space-between;
+  list-style: none;
+}
+.navbar .menu li {
+  margin-bottom: 3px;
+}
+.navbar .menu li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #343a40;
+  transition: 0.35s ease-in-out;
+  letter-spacing: 2.5px;
+}
+.navbar .menu li a:hover {
+  color: #286efc;
+}
+.navbar .menu li a:focus {
+  outline: none;
+}
+.navbar .aloqa {
+  background-color: #286efc;
+  color: #fff;
+  width: 37px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.35s ease-in-out;
+}
+.navbar .aloqa:hover {
+  width: 40px;
+  height: 40px;
+  font-size: 26px;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar {
+    padding: 0 5%;
+    position: fixed;
+  }
+  .navbar .brand .bars {
+    display: block;
+  }
+  .navbar .menu {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    display: block;
+    min-height: 90vh;
+    width: 250px;
+    padding-top: 15px;
+    transform: translateX(-100%);
+    transition: 0.35s ease-in-out;
+    background-color: #fff;
+  }
+  .navbar .menu li {
+    padding: 12px 0;
+    transition: 0.35s ease-in-out;
+    background-color: #fff;
+    padding-left: 15px;
+  }
+  .navbar .menu li:hover {
+    background-color: #286efc;
+  }
+  .navbar .menu li:hover a {
+    color: white;
+  }
+  .navbar .show-menu {
+    transform: translateX(0);
+  }
+}
+.modal-big {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.modal-big .modal {
+  width: 450px;
+  min-height: 250px;
+  background-color: #fff;
+  border-radius: 10px;
+  transform: translateY(-30px);
+  opacity: 0;
+  transition: 0.35s ease-in-out;
+}
+.modal-big .modal .modal-header {
+  border-bottom: 1px solid rgb(237, 231, 231);
+  position: relative;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+}
+.modal-big .modal .modal-header h2 {
+  font-weight: 500;
+}
+.modal-big .modal .modal-header .modal-times {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 20px;
+  color: #999;
+  cursor: pointer;
+  transition: 0.35s ease-in-out;
+}
+.modal-big .modal .modal-header .modal-times:hover {
+  color: #333;
+}
+.modal-big .modal .modal-body {
+  padding: 25px;
+}
+.modal-big .modal .modal-body .modal-text {
+  margin-bottom: 20px;
+  line-height: 22px;
+  font-size: 17px;
+  color: #999;
+  font-weight: 300;
+}
+.modal-big .modal .modal-body .modal-form {
+  display: flex;
+}
+.modal-big .modal .modal-body .modal-form button {
+  padding: 0 25px;
+  background-color: #286efc;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.35s ease-in-out;
+}
+.modal-big .modal .modal-body .modal-form button svg {
+  font-size: 25px;
+}
+.modal-big .modal .modal-body .modal-form button:hover {
+  background-color: #1553ce;
+}
+.modal-big .modal .modal-body .modal-form .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 4px 0 0 4px;
+}
+
+.show-modal {
+  display: flex;
+}
+.show-modal .show-modal-content {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .modal-big .modal {
+    width: 90%;
+    margin: auto;
+  }
+  .modal-big .modal .modal-header h2 {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=navbar.css.map */
