@@ -11,7 +11,7 @@ import './testimonals.css'
 const Testimonals = () => {
     const settings = {
         dots: true,
-        infinite: true,
+        infinite: true,  
         slidesToShow: 2,
         slidesToScroll: 1,
         autoplay: true,
@@ -110,10 +110,6 @@ const Testimonals = () => {
                                     </div>
                                 </div>
                             </div>
-
-
-
-
                             <div>
                                 <div className='test-container'>
                                     <div className="icon">

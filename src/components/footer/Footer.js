@@ -33,11 +33,11 @@ const Footer = () => {
             </div>
             <div>
               <HiPhone />
-              <a href="/">+998 90-147-87-71</a>
+-              <a href="/">+998 94-077-1601</a>
             </div>
             <div>
               <MdEmail />
-              <a href="/">shox7316@gmail.com</a>
+              <a href="/">kamolxoja.n@gmail.com</a>
             </div>
           </Grid>
           <Grid item lg={4} md={6} sm={12} style={{ marginBottom: '10px' }} className={'aloqa2 wow animate__fadeInRight'} data-wow-duration="2s" data-wow-delay="0s">
@@ -53,7 +53,7 @@ const Footer = () => {
             </div>
           </Grid>
           <Grid item lg={12} md={12} sm={12} className={'foot'}>
-            <span>© 2022 All Rights Reserved.</span>
+            <span>© 2023 All Rights Reserved.</span>
           </Grid>
         </Grid>
       </div>

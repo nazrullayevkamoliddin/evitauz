@@ -15,6 +15,12 @@
   display: flex;
   align-items: center;
 }
+
+.navbar .brand img
+{
+  width: 100px;
+}
+
 .navbar .brand .bars {
   margin-right: 15px;
   display: flex;
